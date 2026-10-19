@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Circle?>
 
@@ -11,5 +13,7 @@
       <Button layoutX="152.0" layoutY="311.0" mnemonicParsing="false" onAction="#moveRight" text="➡" textFill="#804242" />
       <Button layoutX="124.0" layoutY="336.0" mnemonicParsing="false" onAction="#moveDown" text="⬇" textFill="#804242" />
       <Button layoutX="124.0" layoutY="286.0" mnemonicParsing="false" onAction="#moveUp" text="⬆" textFill="#804242" />
+      <Slider fx:id="sliderSpeed" layoutX="60.0" layoutY="287.0" onDragDone="#updateBySlider" orientation="VERTICAL" prefHeight="74.0" prefWidth="5.0" />
+      <TextField fx:id="txtSpeed" layoutX="37.0" layoutY="367.0" prefHeight="17.0" prefWidth="60.0" />
    </children>
 </Pane>
