@@ -7,7 +7,9 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.rainbowcircles.HelloController">
    <children>
       <Circle fx:id="circle" centerX="50.0" centerY="50.0" fill="#e805676e" layoutX="30.0" layoutY="30.0" radius="30.0" stroke="WHITE" strokeType="INSIDE" />
-      <Button layoutX="275.0" layoutY="311.0" mnemonicParsing="false" onAction="#moveLeft" text="&lt;" textFill="#972222" />
-      <Button layoutX="314.0" layoutY="311.0" mnemonicParsing="false" onAction="#moveRight" text="&gt;" textFill="#804242" />
+      <Button layoutX="96.0" layoutY="311.0" mnemonicParsing="false" onAction="#moveLeft" text="⬅" textFill="#972222" />
+      <Button layoutX="152.0" layoutY="311.0" mnemonicParsing="false" onAction="#moveRight" text="➡" textFill="#804242" />
+      <Button layoutX="124.0" layoutY="336.0" mnemonicParsing="false" onAction="#moveDown" text="⬇" textFill="#804242" />
+      <Button layoutX="124.0" layoutY="286.0" mnemonicParsing="false" onAction="#moveUp" text="⬆" textFill="#804242" />
    </children>
 </Pane>
